@@ -25,5 +25,5 @@ app.get('/',(require, response)=>{
 
  const port = process.env.PORT || 3000  // define a porta a partir da variavel do ambiente ou usa a porta 3000 como padrão
  app.listen(port,()=>{
-    console.log(`servidor rodando na porta ${port}`) // imprime a mensagem quando o servidor estiver rodando
+    console.log(`servidor rodando na porta ${port}`)// imprime a mensagem quando o servidor estiver rodando
  })
